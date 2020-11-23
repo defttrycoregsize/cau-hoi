@@ -7,7 +7,7 @@ function sort($array) {
     	$min = $i;
     	for($j= $i + 1; $j < $arrayLength ; $j++) {
         	if($array[$j] < $array[$min]) {
-            	$max = $j;
+            	$min = $j;
             }
         }
         
