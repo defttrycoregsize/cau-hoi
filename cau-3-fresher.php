@@ -1,5 +1,5 @@
 <?php
-function sort($array) {
+function sapXep($array) {
 	
     $arrayLength = count($array);
     
@@ -16,8 +16,8 @@ function sort($array) {
         $array[$min] = $pos;
     }
     
-    $result = array(array($array[$i] , $array[$j] ));
-    return $result;
+    
+    return $array;
 }
-	var_dump(sort([1,2,4,6,234,6]));
+	var_dump(sapXep([1,2,4,6,234,6]));
 ?>  
